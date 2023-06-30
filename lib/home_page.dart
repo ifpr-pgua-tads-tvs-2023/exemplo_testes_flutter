@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
             children: [
               Container(
                 padding: EdgeInsets.only(right: 5),
-                color: Colors.red,
+                color: Colors.purple,
                 width: 80,
                 height: 30,
                 alignment: Alignment.centerRight,
