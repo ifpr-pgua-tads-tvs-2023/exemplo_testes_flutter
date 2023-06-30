@@ -5,7 +5,7 @@ class Controller {
   String get valorEntrada => _valorEntrada;
   String get valorSaida => _valorSaida;
 
-  void adicionarDigito(String digito) {
+  void adicionarDigito(String digito) async {
     if (_valorEntrada.length < 5) {
       _valorEntrada += digito;
     }
